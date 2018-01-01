@@ -23,6 +23,8 @@ The following **optional** features are implemented:
 The following **additional** features are implemented:
 - Added the feature, where the user can rate how well the server performed in a number of categories. This
   rating system will help indecisive users decide on a more objective tip to give.
+- Added an option screen.
+- Added an info screen.
 
 - [ ] List anything else that you can get done to improve the app functionality!
 - Make it so that the back button does not appear once you get to the options menu or initial screen ever.
@@ -33,19 +35,19 @@ The following **additional** features are implemented:
 ## Video Walkthrough 
 
 Here's a walkthrough of implemented user stories:
-https://imgur.com/JA2fmHx.gif This is the info screen embedded in the option screen to give users an idea of what each option leads to. Also, this shows the functionality of the fast screen. The user can chose the tip percentages and see what their total bill will turn out to be. The settings screen allows the user to have a default tip saved and ready.
+https://imgur.com/JA2fmHx.gif This is the info screen embedded in the option screen to give users an idea of
+what each option leads to. Also, this shows the functionality of the fast screen. The user can chose the tip
+percentages and see what their total bill will turn out to be. The settings screen allows the user to have a 
+default tip saved and ready.
 
 https://imgur.com/PttgcoN.gif The keyboard will always be ready when the fast option is chosen.
 
 https://imgur.com/pJVPS8n.gif This shows the steady option, which allows the user to rate the serve and obtain a 
 more objective idea of how much they should tip.
 
-https://imgur.com/Pan5BTJ.gif This shows how the user can always go back to the main menu no matter where in the app they are.
+https://imgur.com/Pan5BTJ.gif This shows how the user can always go back to the main menu no matter where in the 
+app they are.
 
-
-
-
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
