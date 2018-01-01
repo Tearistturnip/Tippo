@@ -14,6 +14,13 @@
 		8B11D32A1FE8593100598FE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B11D3281FE8593100598FE0 /* LaunchScreen.storyboard */; };
 		8B11D3351FE8593100598FE0 /* TipMasterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B11D3341FE8593100598FE0 /* TipMasterTests.swift */; };
 		8B11D3401FE8593100598FE0 /* TipMasterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B11D33F1FE8593100598FE0 /* TipMasterUITests.swift */; };
+		8B2BF4231FF9ADA300EF6D35 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2BF4221FF9ADA300EF6D35 /* ResultViewController.swift */; };
+		8B2BF4251FF9B67B00EF6D35 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2BF4241FF9B67B00EF6D35 /* InfoViewController.swift */; };
+		8BA8E8771FF8D0AF0083E607 /* TitlePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA8E8761FF8D0AF0083E607 /* TitlePageViewController.swift */; };
+		8BA8E8791FF8DD720083E607 /* OneOuttaFourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA8E8781FF8DD720083E607 /* OneOuttaFourViewController.swift */; };
+		8BA8E87B1FF8E2C40083E607 /* TwoOuttaFourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA8E87A1FF8E2C40083E607 /* TwoOuttaFourViewController.swift */; };
+		8BD380B71FF8EC2A00380270 /* ThreeOuttaThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD380B61FF8EC2A00380270 /* ThreeOuttaThreeViewController.swift */; };
+		8BDB36D21FF46D6D00188C82 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDB36D11FF46D6D00188C82 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +54,13 @@
 		8B11D33B1FE8593100598FE0 /* TipMasterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipMasterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B11D33F1FE8593100598FE0 /* TipMasterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipMasterUITests.swift; sourceTree = "<group>"; };
 		8B11D3411FE8593100598FE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B2BF4221FF9ADA300EF6D35 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResultViewController.swift; path = TipMaster/ResultViewController.swift; sourceTree = "<group>"; };
+		8B2BF4241FF9B67B00EF6D35 /* InfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InfoViewController.swift; path = TipMaster/InfoViewController.swift; sourceTree = "<group>"; };
+		8BA8E8761FF8D0AF0083E607 /* TitlePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitlePageViewController.swift; sourceTree = "<group>"; };
+		8BA8E8781FF8DD720083E607 /* OneOuttaFourViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OneOuttaFourViewController.swift; path = TipMaster/OneOuttaFourViewController.swift; sourceTree = "<group>"; };
+		8BA8E87A1FF8E2C40083E607 /* TwoOuttaFourViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TwoOuttaFourViewController.swift; path = TipMaster/TwoOuttaFourViewController.swift; sourceTree = "<group>"; };
+		8BD380B61FF8EC2A00380270 /* ThreeOuttaThreeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreeOuttaThreeViewController.swift; sourceTree = "<group>"; };
+		8BDB36D11FF46D6D00188C82 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +91,12 @@
 		8B11D3131FE8593000598FE0 = {
 			isa = PBXGroup;
 			children = (
+				8B2BF4221FF9ADA300EF6D35 /* ResultViewController.swift */,
+				8BA8E8781FF8DD720083E607 /* OneOuttaFourViewController.swift */,
+				8BA8E87A1FF8E2C40083E607 /* TwoOuttaFourViewController.swift */,
+				8BD380B61FF8EC2A00380270 /* ThreeOuttaThreeViewController.swift */,
+				8BA8E8761FF8D0AF0083E607 /* TitlePageViewController.swift */,
+				8B2BF4241FF9B67B00EF6D35 /* InfoViewController.swift */,
 				8B11D31E1FE8593000598FE0 /* TipMaster */,
 				8B11D3331FE8593100598FE0 /* TipMasterTests */,
 				8B11D33E1FE8593100598FE0 /* TipMasterUITests */,
@@ -100,6 +120,7 @@
 				8B11D31F1FE8593000598FE0 /* AppDelegate.swift */,
 				8B11D3211FE8593000598FE0 /* ViewController.swift */,
 				8B11D3231FE8593100598FE0 /* Main.storyboard */,
+				8BDB36D11FF46D6D00188C82 /* SettingsViewController.swift */,
 				8B11D3261FE8593100598FE0 /* Assets.xcassets */,
 				8B11D3281FE8593100598FE0 /* LaunchScreen.storyboard */,
 				8B11D32B1FE8593100598FE0 /* Info.plist */,
@@ -260,7 +281,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B11D3221FE8593000598FE0 /* ViewController.swift in Sources */,
+				8BD380B71FF8EC2A00380270 /* ThreeOuttaThreeViewController.swift in Sources */,
 				8B11D3201FE8593000598FE0 /* AppDelegate.swift in Sources */,
+				8B2BF4231FF9ADA300EF6D35 /* ResultViewController.swift in Sources */,
+				8B2BF4251FF9B67B00EF6D35 /* InfoViewController.swift in Sources */,
+				8BA8E87B1FF8E2C40083E607 /* TwoOuttaFourViewController.swift in Sources */,
+				8BA8E8771FF8D0AF0083E607 /* TitlePageViewController.swift in Sources */,
+				8BDB36D21FF46D6D00188C82 /* SettingsViewController.swift in Sources */,
+				8BA8E8791FF8DD720083E607 /* OneOuttaFourViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +445,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Hunger.TipMaster;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -429,6 +458,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Hunger.TipMaster;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -505,6 +535,7 @@
 				8B11D3461FE8593100598FE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8B11D3471FE8593100598FE0 /* Build configuration list for PBXNativeTarget "TipMasterTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +544,7 @@
 				8B11D3491FE8593100598FE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8B11D34A1FE8593100598FE0 /* Build configuration list for PBXNativeTarget "TipMasterUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +553,7 @@
 				8B11D34C1FE8593100598FE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
